@@ -1,0 +1,100 @@
+
+:root{
+	--brand-1:#d9232e;      /* vermelho samba */
+	--brand-2:#ffc107;      /* amarelo destaque */
+	--brand-3:#111827;      /* quase preto */
+	--brand-4:#fff8e7;      /* bege claro */
+	--wa:#25d366;           /* WhatsApp */
+}
+html, body {
+	height: 100%;
+}
+body{
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: var(--brand-3);
+	background: #fff;
+}
+.topbar{
+	background: var(--brand-1);
+	color:#fff;
+	font-weight:600;
+}
+.topbar .bi{
+	vertical-align: -0.2em;
+}
+
+/* HERO */
+.hero{
+	position: relative;
+	min-height: 85vh;
+	display:flex;
+	align-items: center;
+	color:#fff;
+	background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(17,24,39,0.8) 100%), url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat fixed;
+}
+.badge-soft{
+	background: rgba(255,255,255,0.15);
+	border:1px solid rgba(255,255,255,0.25);
+}
+.card-glass{
+	backdrop-filter: blur(8px);
+	background: rgba(255,255,255,0.08);
+	border: 1px solid rgba(255,255,255,0.2);
+}
+.form-card{
+	background:#fff;
+	border:1px solid #eee;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+	border-radius:16px;
+}
+.floating-whatsapp{
+	position: fixed;
+	right: 16px;
+	bottom: 16px;
+	z-index: 999;
+}
+
+.section-muted{
+	background: var(--brand-4);
+}
+.icon-pill{
+	width:44px;
+	height:44px;
+	border-radius:50%;
+	display:grid;
+	place-items:center;
+	background:var(--brand-4);
+	color:var(--brand-1);
+	border:1px solid #f1e9d2;
+}
+
+.progress{
+	height: 10px;
+	background:#f3f3f3;
+}
+.progress-bar{
+	background: linear-gradient(90deg, var(--brand-1), #ff6f3c);
+}
+
+.faq .accordion-button:not(.collapsed){
+	background:#fff;
+	color:var(--brand-1);
+	box-shadow:none;
+}
+.faq .accordion-button:focus{
+	box-shadow:none;
+}
+
+.footer a{
+	color:#e8e8e8;
+	text-decoration:none;
+}
+.footer a:hover{
+	text-decoration:underline;
+}
+
+@media (max-width: 768px){
+	.hero{
+		min-height: 92vh;
+	}
+}
