@@ -1,6 +1,6 @@
 
 // ======= CONFIGURAÇÕES (EDITE AQUI) =======
-const WHATSAPP_GROUP_LINK = 'https://bit.ly/prevendafeijoadacomsamba'; // Substitua pelo link real do grupo
+const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/JqIqhfr27UA0r12JP585oB'; // Substitua pelo link real do grupo
 const COUNTDOWN_TARGET = '2025-08-19T18:00:00-03:00'; // Data/hora fim da pré‑venda (exemplo)
 const FAKE_GROUP_CAPACITY = 250; // para simular vagas restantes na página (visual)
 let usedSlots = 113; // ajuste conforme sua campanha
