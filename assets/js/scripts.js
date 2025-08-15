@@ -2,7 +2,7 @@
 // ======= CONFIGURAÇÕES (EDITE AQUI) =======
 const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/SEU_CODIGO_DE_CONVITE'; // Substitua pelo link real do grupo
 const COUNTDOWN_TARGET = '2025-08-19T18:00:00-03:00'; // Data/hora fim da pré‑venda (exemplo)
-const FAKE_GROUP_CAPACITY = 150; // para simular vagas restantes na página (visual)
+const FAKE_GROUP_CAPACITY = 250; // para simular vagas restantes na página (visual)
 let usedSlots = 113; // ajuste conforme sua campanha
 
 // Endpoint opcional para salvar lead (ex.: SheetMonkey, FormSubmit, webhook próprio)
